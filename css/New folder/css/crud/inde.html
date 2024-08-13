@@ -1,0 +1,79 @@
+<html>
+<head>
+<link rel="stylesheet" href="css/all.min.css"> 
+<link rel="stylesheet" href="css/bootstrap.min.css"> 
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+<div class="container w-50">
+    <div id="messageAdd" class="py-3 ">you add secssuf</div>
+
+<div class="text-center  " id="imgUser" >
+ <img src="MI_DARK_BLUE_ICON_SUPPORT.png" alt="" class=" rounded-circle">
+</div>
+<div class="contact">
+
+<input type="text" name="" id="firstName" placeholder="first name" class="form-control" onkeyup="nameREJEX()">  
+<div class="alert alert-danger py-2 ms-4 d-none" id="firstNameAlert">You must enter at least 3 to 8 characters</div>
+<input type="text" name="" id="lastName"placeholder="last name" class="form-control" onkeyup="lastNmeRejex()">
+<div class="alert alert-danger py-2 ms-4 d-none" id="alertLastAlert">You must enter at least 3 to 8 characters</div>
+<input type="number" name="" id="pohenNumber"placeholder="ex...0120000000" class="form-control" onkeyup="numberRejex()">
+<div class="alert alert-danger py-2 ms-4 d-none" id="namberAlert">You must enter at least 3 to 11 characters</div>
+<input type="email" id="emailUser" placeholder="Email addres" class="form-control">
+
+<div class="text-center">
+    
+ <button class=" btn btn-info rounded-pill px-4" onclick="aaduser()">AAD contact</button>  
+ <br>
+ <br>
+ <button class=" btn btn-danger btn-lg  rounded-pill" onclick="reset()">cancel</button>
+</div>
+</div>
+
+
+
+</div> 
+
+
+ <div class="container text-center mt-5 w-50"> 
+    <input type="text" name="" id="search" placeholder="search....." class="form-control rounded-pill my-3" onkeyup="search(this.value)"> 
+<table class="table ">
+    <thead></thead>
+    <tbody id="mytabel">
+  
+    </tbody>
+</table>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script> 
+    <script src="js/main.js"></script>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>

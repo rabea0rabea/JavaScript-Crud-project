@@ -1,0 +1,75 @@
+.contact input {
+    display: block;
+    width: 100%;
+    margin: 20px;
+    border: none;
+    border-bottom: 2px solid rgb(30, 49, 193);
+}
+
+
+ol li {
+
+    list-style: none;
+}
+
+.m {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border-radius: 50%;
+    background-color: rgb(243, 4, 223) !important;
+    width: 50px !important
+}
+
+i {
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.delet {
+
+    color: #a00c1b;
+}
+
+.updet {
+    color: rgb(160, 236, 9);
+}
+
+#messageAdd {
+    display: flex; 
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #198754;
+    color: white; 
+   
+    padding: 20px;
+    position: fixed;
+    left: -180px;
+    top: 0;
+    bottom: 0; 
+    animation-name:  messageAdd;
+    animation-duration:none ;
+   
+
+} 
+
+
+
+
+
+@keyframes messageAdd {
+
+
+    50% {
+        left: 0;
+    }
+
+    100% {
+        left: -180px;
+    }
+
+}
